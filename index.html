@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body onload="initClock()" >
+  
+  <!--digital clock start-->
+	<div class="datetime">
+	  <div class="date">
+		<span id="dayname">Day</span>,
+		<span id="month">Month</span>
+		<span id="daynum">00</span>,
+		<span id="year">Year</span>
+	  </div>
+	  <div class="time">
+		<span id="hour">00</span>:
+		<span id="minutes">00</span>:
+		<span id="seconds">00</span>
+		<span id="period">AM</span>
+	  </div>
+	</div>
+	<br><br><br>
+	<!--digital clock end-->
+	
+	<div class="wrapper">
+	  <h2>Do it Now!!</h2>
+	  <div class="task-input">
+		<input type="text" placeholder="Add a new task">
+	  </div>
+	  <div class="controls">
+		<div class="filters">
+		  <span class="active" id="all">All</span>
+		  <span id="pending">Pending</span>
+		  <span id="completed">Completed</span>
+		</div>
+		<button class="clear-btn">Clear All</button>
+	  </div>
+	  <ul class="task-box"></ul>
+	</div>
+	<div class ="footer">
+		<br>Copyright &copy; boyiddha 2022.<br> 
+		Developed by Boyiddhanath Roy........<a href="https://www.codingnepalweb.com/">References</a><br>
+	</div>
+    
+    <script src="script.js"></script>
+	
+  </body>
+</html>
